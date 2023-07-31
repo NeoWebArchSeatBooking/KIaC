@@ -12,6 +12,5 @@ jobs:
     steps:
       - run: |
           echo "Tags: $TAGS"
-          echo "Environment: $ENVIRONMENT"
         env:
           TAGS: ${{ inputs.tags }}
