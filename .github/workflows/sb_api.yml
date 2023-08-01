@@ -2,10 +2,10 @@ on:
   workflow_dispatch:
     inputs:
       tags:
-        description: 'Test scenario tags'
+        description: "Test scenario tags"
         required: false
         type: string
-      
+
 jobs:
   log-the-inputs:
     runs-on: ubuntu-latest
