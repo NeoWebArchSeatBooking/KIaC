@@ -53,9 +53,7 @@ System should be available even in case of disaster|	Technical|	Product Owner/ S
 |Reliability|	90% of request should be served without failures. (Percentile for week)|	High|	Part of NFR (6)|
 |Scalability|	System should scale up API server when traffic reaches 80% above and should scale down when 40% below|	Medium|	Scale based on incoming traffic. Part of NFR (2) |
 |Supportability|	System should provide monitoring tool to identify traffics, performance & system failures and analyzing tool to debug failures| 	Medium|	Part of NFR (9)|
-|Usability|	System’s UI facilitates user 1. to see seating views precisely to select and book a ticket.
-2. to view the seats availability by using preference set by user.|
-	Medium|	Good to have user experience.|
+|Usability|	System’s UI facilitates user 1. to see seating views precisely to select and book a ticket.2. to view the seats availability by using preference set by user.|	Medium|	Good to have user experience.|
 
  ### Influential Functional Requirements
  |Functional Requirements|	IFR|	Comments|
@@ -100,6 +98,8 @@ b.		2 approvals.
 ![image](https://github.com/NeoWebArchSeatBooking/KIaC/assets/11704304/d76e7677-9040-4ee7-b942-da8e90ecab04)
 
 ## Appendix A: Glossary
+|Glossary| Desc |
+|:----------------------|:---------|
 |API Response: Quick|	1 seconds/request|
 |API Response: Optimal|	3 seconds/request|
 |API Response: Non-Acceptable|	More than 3 |seconds/request|
@@ -114,6 +114,8 @@ b.		2 approvals.
 |UI Rendering Response: Optimal|	5 seconds/request|
 |UI Rendering Response: Non-Acceptable|	More than 5 seconds/request|
 ## Appendix B: Quality Attribute Taxonomy
+|Glossary| Desc |
+|:----------------------|:---------|
 |Availability|	Percentage of time that the system remains functional under normal circumstances.|
 |Maintainability|	ability of a system to maintain easily and support changes cost-effectively|
 |Portability|	Ability of a system to be moved/ deployed into different environment/platform |
