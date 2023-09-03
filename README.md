@@ -2,14 +2,14 @@
 ## Stakeholders
 Stack route (Product Owners), Developers, Quality Assurance team, DevOps, Infrastructure & maintenance team, and Users
 ## Business Goals
-	Company facilitates their employee to search and book a seat in office premises through online web application. The web application has two user roles: Employee and Admin. 
-	As an employee,
+Company facilitates their employee to search and book a seat in office premises through online web application. The web application has two user roles: Employee and Admin. 
+#### As an employee,
 1.	login to app via company credentials or email for now.
 2.	have ability to select the day they want to book seat.
 3.	Will get option of booking a seat as we get in any app or else shows as list kind of option with seat type /its available numbers.
 4.	After selecting a seat, clicks on Book the seat and confirm the booking.
 5.	Can be allowed to select and book for more than one day.
-   As an admin,
+#### As an admin,
 1.	View an analytic report on how many seats are booked on specific day.
 2.	View which user books seats more frequently.
 ## Requirement Consideration:
