@@ -9,12 +9,12 @@ spec:
   selector:
     app: seatbooking-app
     name: idp-pod
-  type: NodePort
+  type: ClusterIP
   ports:
     - protocol: TCP
       port: 80
       targetPort: 3000
-      nodePort: 30005
+      #nodePort: 30005
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -42,13 +42,34 @@ spec:
         name: idp-pod
     spec:
       containers:
-        - name: idp-pod
+        - name: idp-container
           image: dhamodaran/idp_api:latest
           resources:
+            limits:
+              cpu: 200m
+              memory: 500Mi
             requests:
-              cpu: 500m
+              cpu: 100m
+              memory: 200Mi
           ports:
             - containerPort: 3000
           env:
+            - name: CHECK_DB
+              value: yess
             - name: DB_HOST
               value: 192.168.65.2
+            - name: DB_USER
+              valueFrom:
+                secretKeyRef:
+                  name: sbasecrets
+                  key: idp_db_user
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: sbasecrets
+                  key: idp_db_password
+            - name: DB_SCHEME
+              valueFrom:
+                secretKeyRef:
+                  name: sbasecrets
+                  key: idp_db_schema 

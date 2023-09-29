@@ -1,0 +1,316 @@
+[
+    {
+      "_id": "64e715438034d2a00cbd0c15",
+      "locationId": "TCO",
+      "locationName": "Chennai TCO",
+      "blocks": [
+        {
+          "blockId": "SDB1",
+          "blockName": "SDB 1",
+          "floorCount": 6,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            },
+            {
+              "floorId": "F5",
+              "status": "active"
+            },
+            {
+              "floorId": "F6",
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "blockId": "SDB2",
+          "blockName": "SDB 2",
+          "floorCount": 4,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "blockId": "SDB3",
+          "blockName": "SDB 3",
+          "floorCount": 4,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "64e715888034d2a00cbd569c",
+      "locationId": "KOC",
+      "locationName": "Kochin Tech Park",
+      "blocks": [
+        {
+          "blockId": "SDB1",
+          "blockName": "SDB 1",
+          "floorCount": 6,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            },
+            {
+              "floorId": "F5",
+              "status": "active"
+            },
+            {
+              "floorId": "F6",
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "blockId": "SDB2",
+          "blockName": "SDB 2",
+          "floorCount": 6,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            },
+            {
+              "floorId": "F5",
+              "status": "active"
+            },
+            {
+              "floorId": "F6",
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "blockId": "SDB3",
+          "blockName": "SDB 3",
+          "floorCount": 4,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "64e715b08034d2a00cbd8527",
+      "locationId": "HYD",
+      "locationName": "Hyderabad SEZ",
+      "blocks": [
+        {
+          "blockId": "SDB1",
+          "blockName": "SDB 1",
+          "floorCount": 6,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            },
+            {
+              "floorId": "F5",
+              "status": "active"
+            },
+            {
+              "floorId": "F6",
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "blockId": "SDB2",
+          "blockName": "SDB 2",
+          "floorCount": 6,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            },
+            {
+              "floorId": "F5",
+              "status": "active"
+            },
+            {
+              "floorId": "F6",
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "64e715e18034d2a00cbdc069",
+      "locationId": "PUN",
+      "locationName": "Pune MPEZ",
+      "blocks": [
+        {
+          "blockId": "SDB1",
+          "blockName": "SDB 1",
+          "floorCount": 6,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            },
+            {
+              "floorId": "F5",
+              "status": "active"
+            },
+            {
+              "floorId": "F6",
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "blockId": "SDB2",
+          "blockName": "SDB 2",
+          "floorCount": 6,
+          "floors": [
+            {
+              "floorId": "F1",
+              "status": "active"
+            },
+            {
+              "floorId": "F2",
+              "status": "active"
+            },
+            {
+              "floorId": "F3",
+              "status": "active"
+            },
+            {
+              "floorId": "F4",
+              "status": "active"
+            },
+            {
+              "floorId": "F5",
+              "status": "active"
+            },
+            {
+              "floorId": "F6",
+              "status": "active"
+            }
+          ]
+        }
+      ]
+    }
+  ]
